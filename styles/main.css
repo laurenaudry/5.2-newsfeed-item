@@ -1,3 +1,35 @@
 /*
   Main Stylesheet
 */
+* {
+  box-sizing: border-box;
+}
+
+#main {
+  background: rgb(208, 210,	213);
+}
+
+.article-container {
+  align-self: center;
+  border: 2px solid rgb(247, 247, 247);
+  font-family: helvetica, arial, sans-serif;
+  height: 700px;
+  width: 400px;
+}
+
+.profileImg {
+  border: 2px solid rgb(247, 247, 247);
+  height: 40px;
+  width: 40px;
+  position: absolute;
+}
+
+.author {
+  font-size: 20px;
+  position: relative;
+  padding-left: 50px;
+}
+
+.article {
+
+}
