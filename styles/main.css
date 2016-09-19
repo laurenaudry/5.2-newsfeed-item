@@ -5,31 +5,39 @@
   box-sizing: border-box;
 }
 
-#main {
-  background: rgb(208, 210,	213);
+.body {
+  background: rgb(233, 235,	238);
 }
 
-.article-container {
-  align-self: center;
+.post {
+  background: white;
   border: 2px solid rgb(247, 247, 247);
   font-family: helvetica, arial, sans-serif;
-  height: 700px;
-  width: 400px;
+  margin-left: 20%;
+  padding: 10px;
+  width: 600px;
 }
+/*Commented out because it is now invalid since Iwrapped it all in another div*/
+/*.article-container {
+  background: white;
+  border: 2px solid rgb(247, 247, 247);
+  font-family: helvetica, arial, sans-serif;
+  margin-left: 20%;
+  padding: 10px;
+  width: 600px;
+}*/
 
 .profileImg {
   border: 2px solid rgb(247, 247, 247);
-  height: 40px;
-  width: 40px;
+  background: white;
+  height: 45px;
+  width: 45px;
   position: absolute;
 }
 
 .author {
+  color: rgb(50, 84, 150);
   font-size: 20px;
   position: relative;
   padding-left: 50px;
-}
-
-.article {
-
 }
