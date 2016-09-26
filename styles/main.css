@@ -52,11 +52,14 @@
 .comments {
   background-color: rgb(246, 247, 249);
   margin: 0;
+  padding: 0;
 }
 
 .commentersdiv {
+  display: block;
   height: 7rem;
   margin-left: 15%;
+  vertical-align: top;
 }
 
 .commenter-author {
